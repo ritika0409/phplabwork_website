@@ -1,0 +1,58 @@
+html, body {
+  width: 100%;
+  margin: 0px;
+  height: 100%;
+  background-image: url("image1.jpeg");
+  background-size: cover;
+}
+body{
+  font-family: "Helvetica Neue",sans-serif;
+
+}
+.header{
+  background-color: black;
+  color: yellow;
+  margin: auto;
+  width: 100%;
+  text-align:center;
+}
+.heading{
+  font-size: 40px;
+  font-family: 'Luckiest Guy', cursive;
+}
+.subheading{
+  font-size:15px;
+  font-family: 'Dancing Script', cursive;
+
+}
+.agroup{
+  display: inline;
+  float: left;
+}
+.agroup a {
+  background-color: #008060;
+  border: 1px solid #cc0044;
+  color: white;
+  padding: 10px 24px;
+  cursor: pointer;
+  width: 100px;
+  display: inline-block;
+  position: relative;
+  left: -30px;
+  transition: 0.3s;
+  text-align: right;
+  text-decoration: none;
+}
+.agroup a:not(:last-child) {
+  border-bottom: none;
+}
+.agroup a:hover {
+  left: 0px;
+  background-color: #99ff33;
+}
+.m_content
+{
+  display: inline;
+  padding: 5px;
+  width:auto;
+}
